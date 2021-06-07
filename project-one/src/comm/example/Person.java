@@ -9,7 +9,7 @@ public class Person {
 
     public void createPerson(int id,String name,int age)
     {
-        if((id<0)||(age>100))
+        if((age<0)||(age>100))
         {
             System.out.println("invalid age");
             personAge=0;
